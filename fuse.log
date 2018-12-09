@@ -1,0 +1,21 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/xilinx_vm_common_folder/vending_machine/vending_isim_beh.exe -prj /home/ise/xilinx_vm_common_folder/vending_machine/vending_beh.prj work.vending work.glbl 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/xilinx_vm_common_folder/vending_machine/vending.v" into library work
+WARNING:HDLCompiler:568 - "/home/ise/xilinx_vm_common_folder/vending_machine/vending.v" Line 34: Constant value is truncated to fit in <5> bits.
+WARNING:HDLCompiler:568 - "/home/ise/xilinx_vm_common_folder/vending_machine/vending.v" Line 35: Constant value is truncated to fit in <5> bits.
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 94956 KB
+Fuse CPU Usage: 1560 ms
+Compiling module vending
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 2 Verilog Units
+Built simulation executable /home/ise/xilinx_vm_common_folder/vending_machine/vending_isim_beh.exe
+Fuse Memory Usage: 98036 KB
+Fuse CPU Usage: 1700 ms
+GCC CPU Usage: 770 ms
